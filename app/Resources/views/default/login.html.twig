@@ -1,0 +1,123 @@
+{% extends 'base.html.twig' %}
+{% block css %}
+
+<!-- Bootstrap core CSS -->
+<link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
+<!-- CSS modules -->
+<link rel="stylesheet" href="{{asset('fonts/flaticon/flaticon.css')}}">
+<link rel="stylesheet" href="{{asset('css/slick.css')}}"/>
+<link rel="stylesheet" href="{{asset('css/liMarquee.css')}}">
+<link rel="stylesheet" href="{{asset('css/colorbox.css')}}">
+<link rel="stylesheet" href="{{asset('css/jquery.nouislider.css')}}">
+<link rel="stylesheet" href="{{asset('css/bootstrap-select.css')}}">
+<!-- Custom styles for this template -->
+<link href="{{asset('css/coolbaby.css')}}" rel="stylesheet">
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="{{asset('rs-plugin/css/settings.css')}}" media="screen"/>
+<link rel="stylesheet" type="text/css" href="{{asset('rs-plugin/css/extralayers.css')}}" media="screen"/>
+
+{% endblock %}
+{% block body %}
+<!-- Breadcrumbs-->
+		<section class="breadcrumbs">
+		<div class="container">
+			<a href="index.html">home</a><span class="divider">&nbsp;</span><span>SHOPPING CART</span>
+		</div>
+		</section>
+		<!-- //end Breadcrumbs -->
+		<!--Page Content-->
+		<section class="content">
+		<div class="container">
+			<div class="subtitle">
+				<div>
+					<span>Login</span>
+				</div>
+			</div>
+			<div class="divider divider-sm">
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="rect-nohover rect-equal-height">
+						<h2>NEW CUSTOMERS</h2>
+						<div class="divider-xs">
+						</div>
+						<p>
+							By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.
+						</p>
+						<button class="btn btn-cool btn-md-sm btn-bottom" type="submit">Create an account</button>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="rect-nohover rect-equal-height">
+						<h2>REGISTERED CUSTOMERS</h2>
+						<div class="divider-xs">
+						</div>
+						<p>
+							If you have an account with us, please log in.
+						</p>
+						<div class="divider-sm">
+						</div>
+						<form action="#">
+							<div class="form-group">
+								<input name="your-name" type="text" class="form-control" placeholder="Your name">
+							</div>
+							<div class="form-group">
+								<input name="password" type="password" class="form-control" placeholder="Password">
+							</div>
+							<div class="divider-sm">
+							</div>
+							<p>
+								 Forgot Your Password?
+							</p>
+							<div class="divider-sm">
+							</div>
+							<button class="btn btn-cool btn-md-sm btn-bottom" type="submit">Login</button>
+						</form>
+					</div>
+				</div>
+				<div class="divider divider-lg">
+				</div>
+			</div>
+			<div class="subtitle">
+				<div class="subtitle">
+					<div>
+						<span>Social Connect</span>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				You can connect store account with you Social account so you could login easier in the future.
+			</div>
+			<div class="divider divider-md">
+			</div>
+			<div class="text-center">
+				<a href="#" class="sign-btn sign-btn-facebook"><span class="icon flaticon-facebook12"></span>Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="sign-btn sign-btn-twitter"><span class="icon flaticon-social19"></span>Sign in</a>
+			</div>
+		</div>
+		</section>
+		<!-- //end Page Content -->
+{% endblock %}
+{% block javascript %}
+<script src="asset('js/jquery-1.11.3.min.js')}}"></script>
+<script src="asset('js/modernizr.custom.02163.js')}}"></script>
+<script src="{{asset('js/jquery.finger.min.js')}}"></script>
+<script src="{{asset('js/doubletaptogo.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery.easing.1.3.min.js')}}"></script>
+<script src="{{asset('js/slick.min.js')}}"></script>
+<script src="{{asset('js/jquery.parallax.min.js')}}"></script>
+<script src="{{asset('js/jquery.inview.min.js')}}"></script>
+<script src="{{asset('js/jquery.liMarquee.min.js')}}"></script>
+<script src="{{asset('js/jquery.colorbox-min.js')}}"></script>
+<script src="{{asset('js/jquery.isotope.min.js')}}"></script>
+<script src="{{asset('js/jquery.plugin.min.js')}}"></script>
+<script src="asaset('js/jquery.countdown.min.js')}}"></script>
+<script src="{{asset('js/cloudzoom.js')}}"></script>
+<script src="{{asset('js/bootstrap-select.js')}}"></script>
+<script src="{{asset('js/coolbaby.js')}}"></script>
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+<script type="text/javascript" src="{{asset('rs-plugin/js/jquery.themepunch.plugins.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('rs-plugin/js/jquery.themepunch.ini.js')}}"></script>
+
+{% endblock %}
